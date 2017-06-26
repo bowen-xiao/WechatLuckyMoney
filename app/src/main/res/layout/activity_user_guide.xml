@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_guide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="getmoney.bowen.com.getmoney.UserGuideActivity">
+    <LinearLayout
+        android:paddingBottom="20dp"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="@android:color/holo_red_dark"
+            android:text="@string/import_note_keep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+        android:text="@string/note_step_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@mipmap/open_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="@string/note_step_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@mipmap/open_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

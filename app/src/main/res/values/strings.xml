@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">抢红包</string>
+    <string name="desc">自动抢微信红包</string>
+
+    <string name="service_status">当前辅助服务状态:</string>
+    <string name="service_name">设置抢红包辅助服务</string>
+    <string name="main_note">温馨提示：自动抢红包需要停留在此页面以确保程序正常运行；抢红包是全自动行为，抢红包服务开启时不能正常聊天，如果需要聊天请关闭此服务。</string>
+    <string name="import_note_keep">温馨提示：需要在“坐等收钱”页面才可以抢红包，抢红包开启时不能正常聊天，如果需要聊天请关闭服务</string>
+    <string name="note_step_two">步骤二 ：回到当些页面(出现了坐等收钱表示服务开启成功)</string>
+    <string name="note_step_one">步骤一 ：打开服务</string>
+</resources>

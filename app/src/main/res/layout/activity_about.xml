@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="getmoney.bowen.com.getmoney.AboutActivity">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="多谢你的支持，本系列程序只作学习交流使用，仅供个人研究之用，请勿用于商业及非法用途，如由此引起的相关法律法规责任，与程序无关！"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="如果你觉得程序对你有帮助，并愿意支持程序的维护和开发工作，你可以赞助任意金额。"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@mipmap/weixingpay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="联系作者：bowen.xiaowh@gmail.com"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

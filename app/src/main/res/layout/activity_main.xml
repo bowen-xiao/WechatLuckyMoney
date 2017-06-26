@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <Button
+        android:id="@+id/button_accessible"
+        android:text="@string/service_name"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:onClick="onButtonClicked"/>
+    <TextView
+        android:id="@+id/text_accessible"
+        android:text="@string/service_status"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_accessible"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_success"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/progressBar"
+            />
+
+
+        <TextView
+            android:text="坐等收钱"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_page_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="操作手册"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:onClick="onUserGuideClicked"/>
+
+        <Button
+            android:text="关于"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:onClick="aboutMe"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_above="@id/ll_page_bottom"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/main_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
